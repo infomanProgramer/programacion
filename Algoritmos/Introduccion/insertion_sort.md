@@ -11,7 +11,7 @@ todas las cartas de tu mano izquierda tienen un valor mayor que la carta de tu m
 entonces coloca esta carta como la carta más a la izquierda de tu mano izquierda. En todo momento, las cartas que sostienes en tu mano izquierda están ordenadas, y estas cartas eran originalmente las cartas superiores del
 montón sobre la mesa.
 
-![alt text](image-1.png)
+![alt text](image.png)
 
 **Invariantes de bucle y la corrección del algoritmo de ordenación por inserción**
 
