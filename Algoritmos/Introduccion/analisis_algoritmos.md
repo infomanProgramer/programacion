@@ -40,7 +40,7 @@ almacenar enormes cantidades de datos en una sola palabra y operar con todo ello
 escenario irreal.
 
 
-#### La zona gris del modelo RAM**
+#### La zona gris del modelo RAM
 
 El modelo RAM simplifica muchas cosas, por ejemplo:
 
@@ -54,10 +54,12 @@ Pero aparecen dudas en operaciones mas complejas como en la ***Exponenciación**
 No, por ejemplo tomemos $2^{1000}$. No es razonable pensar que una computadora obtiene el resultado en un solo paso. Para calcular la potencia se necesitan varias multiplicaciones
 
 De hecho, usando exponenciación rápida, el número de multiplicaciones es aproximadamente: $$O(\log n)$$
-Por ejemplo: $$2^{16}$$
-se puede calcular como:
+
+Por ejemplo: $$2^{16}$$ se puede calcular como:
+
 $$2^{16} = (2^8)^2 = ((2^4)^2)^2 = (((2^2)^2)^2)^2$$
-Por eso el tiempo depende de *n* y no es constante
+
+Por eso el tiempo depende de $n$ y no es constante
 
 
 
