@@ -46,6 +46,11 @@ Por ejemplo, si la entrada de un algoritmo es un grafo, solemos caracterizar su 
 
 ![alt text](image-1.png)
 
+Fuente:
+
+- Cormen, T. H., Leiserson, C. E., Rivest, R. L., & Stein, C. (2009). Introduction to Algorithms (3rd ed.). The MIT Press.
+
+
 El tiempo de ejecución de un algoritmo es determinada por el número de instrucciones y accesos a datos ejecutados. La forma de contabilizar estos costos debe ser independiente de cualquier ordenador en particular, pero dentro del modelo RAM. Asumiendo que cada ejecución de la k-esima linea tarda $c_k$ tiempo, donde $c_k$ es una constante.
 
 Sin embargo, esta formula resulta ser compleja. Por lo tanto, utilizaremos una notación más simple, concisa y facil de usar. Esta notación permite comparar claramente los tiempos de ejecución de los algoritmos, especialmente a medida que aumenta el tamaño de entrada
